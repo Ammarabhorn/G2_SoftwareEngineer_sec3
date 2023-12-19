@@ -26,32 +26,30 @@
 
 declare(strict_types=1);
 
-namespace PrestaShop\PrestaShop\Core\FeatureFlag;
+namespace PrestaShop\PrestaShop\Core\Localization\Number;
 
-class FeatureFlagSettings
+use PrestaShop\PrestaShop\Core\Localization\LocaleInterface;
+
+class LocaleNumberTransformer
 {
-    /**
-     * Stability consts
-     */
-    public const STABILITY_STABLE = 'stable';
-    public const STABILITY_BETA = 'beta';
+    /** @var string[] */
+    private const FORCED_LOCALES_TO_EN_NUMBERS = ['ar', 'bn', 'fa'];
+
+    public function __construct(
+        private LocaleInterface $locale
+    ) {
+    }
 
     /**
-     * Type consts
+     * Retrieve locale for numbers.
+     * (to avoid use of persian/arabic numbers)
+     *
+     * @return string
      */
-    public const TYPE_DEFAULT = 'env,dotenv,db';
-    public const TYPE_ENV = 'env';
-    public const TYPE_QUERY = 'query';
-    public const TYPE_DOTENV = 'dotenv';
-    public const TYPE_DB = 'db';
+    public function getLocaleForNumberInputs()
+    {
+        $locale = substr($this->locale->getCode(), 0, 2);
 
-    /**
-     * Prefix for DotEnv & Env Layers
-     */
-    public const PREFIX = 'PS_FF_';
-
-    public const FEATURE_FLAG_AUTHORIZATION_SERVER = 'authorization_server';
-    public const FEATURE_FLAG_MULTIPLE_IMAGE_FORMAT = 'multiple_image_format';
-    public const FEATURE_FLAG_SYMFONY_LAYOUT = 'symfony_layout';
-    public const FEATURE_FLAG_FRONT_CONTAINER_V2 = 'front_container_v2';
+        return in_array($locale, self::FORCED_LOCALES_TO_EN_NUMBERS) ? 'en' : $locale;
+    }
 }
