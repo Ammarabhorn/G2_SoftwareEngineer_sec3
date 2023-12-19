@@ -7,3 +7,5 @@
 <img src="https://github.com/Ammarabhorn/G2_SoftwareEngineer_sec3/blob/main/media/cholthicha.JPG"> <br>
 นายจิณวัฒน์ โสภา 643020596-9 sec.3 Jinnawat <br>
 <img src="https://github.com/Ammarabhorn/G2_SoftwareEngineer_sec3/blob/main/media/jinnawaz.JPG"> <br>
+นางสาวรักษิณา มูลสุวรรณ์ 643020637-1 sec.3 raksinaa <br>
+<img src="https://github.com/Ammarabhorn/G2_SoftwareEngineer_sec3/blob/main/media/raksina.JPG"> <br>
