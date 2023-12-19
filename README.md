@@ -5,3 +5,5 @@
 <img src="https://github.com/Ammarabhorn/G2_SoftwareEngineer_sec3/blob/main/media/thanapong.jpg"> <br>
 นางสาวชลธิชา บุญสนัด 643020603-8 sec.3 Cholthicha02 <br>
 <img src="https://github.com/Ammarabhorn/G2_SoftwareEngineer_sec3/blob/main/media/cholthicha.JPG"> <br>
+นายจิณวัฒน์ โสภา 643020596-9 sec.3 Jinnawat <br>
+<img src="https://github.com/Ammarabhorn/G2_SoftwareEngineer_sec3/blob/main/media/jinnawaz.JPG"> <br>
