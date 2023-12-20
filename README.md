@@ -9,3 +9,6 @@
 <img src="https://github.com/Ammarabhorn/G2_SoftwareEngineer_sec3/blob/main/media/jinnawaz.JPG"> <br>
 นางสาวรักษิณา มูลสุวรรณ์ 643020637-1 sec.3 raksinaa <br>
 <img src="https://github.com/Ammarabhorn/G2_SoftwareEngineer_sec3/blob/main/media/raksina.JPG"> <br>
+นายสุชาติ อ่อนหาญ 643021341-7 sec.3 Suchart
+<br>
+<img src="https://github.com/Ammarabhorn/G2_SoftwareEngineer_sec3/blob/main/media/suchart.jpg"> <br>
