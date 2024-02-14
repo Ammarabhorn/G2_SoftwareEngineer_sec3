@@ -1,0 +1,1 @@
+Adapt blueprint_card16
