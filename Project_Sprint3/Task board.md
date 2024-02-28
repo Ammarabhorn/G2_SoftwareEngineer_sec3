@@ -1,0 +1,1 @@
+Task board : https://miro.com/welcomeonboard/SjIzUGMyc3FEemZkWkN3dlRqTjJPQWxiOUQ5WWhGMmxPWXgySlZmeHZiTm83aUN4bDBabll4ZUU3bVhOTzU0QXwzNDU4NzY0NTcwOTM3OTA4MTUwfDI=?share_link_id=570046005276
